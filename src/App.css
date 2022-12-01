@@ -32,7 +32,245 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --delta: rgba(163, 163, 163, 1);
+  --white: rgba(255, 255, 255, 1);
+  --font-size-m: 16px;
+  --font-size-l: 32px;
+  --font-family-brawler: "Brawler";
+  --font-family-roboto: "Roboto";
+
+}
+
+.brawler-bold-white-32px {
+  color: var(--white);
+  font-family: var(--font-family-brawler);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-normal-delta-16px {
+  color: var(--delta);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+
+}
+
+.container-center-horizontal>* {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.frame-20 {
+  align-items: center;
+  background-color: var(--black);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 720px;
+  overflow: hidden;
+  padding: 0 10px;
+  position: relative;
+  width: 1280px;
+
+}
+
+.my-dashboard {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 104px;
+  margin-top: 13px;
+  min-height: 92px;
+  text-align: center;
+  width: 240px;
+}
+
+.component-container {
+  align-items: flex-start;
+  display: flex;
+  height: 126px;
+  margin-right: 27px;
+  margin-top: 13px;
+  min-height: 92px;
+  text-align: center;
+  width: 240px;
+}
+
+.component-container {
+  align-items: flex-start;
+  display: flex;
+  height: 126px;
+  margin-right: 27px;
+  margin-top: 136px;
+  min-width: 1233px;
+  position: relative;
+
+}
+
+.component-1 {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  gap: 41px;
+  height: 126px;
+  min-width: 285px;
+
+}
+
+.image-2 {
+  height: 76px;
+  margin-top: 9px;
+  width: 75px;
+
+}
+
+.flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: -1px;
+  min-height: 126px;
+  width: 169px;
+}
+
+.bitcoin {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 36px;
+  text-align: center;
+  width: 169px;
+}
+
+.price {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 2.27px;
+  min-height: 72px;
+  text-align: center;
+  width: 130px;
+
+}
+
+.component-1.component-2 {
+  gap: 38px;
+  margin-left: 20px;
+  min-width: 265px;
+}
+
+.component-1.component-2.image-2 {
+  width: 70px;
+}
+
+.component-1.component-2.flex-col,
+.component-1.component-2.bitcoin {
+  width: 157px;
+}
+
+.component-1.component-2.price {
+  margin-right: 2.11px;
+  width: 121px;
+
+}
+
+.component-1.component-3 {
+  gap: 42px;
+  margin-left: 22px;
+  min-width: 293px;
+}
+
+.component-1.component-3.image-2 {
+  width: 77px;
+}
+
+.component-1.component-3.flex-col,
+.component-1.component-3.bitcoin {
+  width: 174px;
+}
+
+.component-1.component-3.price {
+  margin-right: 2.34px;
+  width: 134px;
+}
+
+.component-1.component-4 {
+  gap: 39px;
+  margin-left: 38px;
+  min-width: 275px;
+}
+
+.component-1.component-4.image-2 {
+  width: 72px;
+}
+
+.component-1.component-4.flex-col,
+.component-1.component-4.bitcoin {
+  width: 163px;
+}
+
+.component-1.component-4.price {
+  margin-right: 2.19px;
+  width: 126px;
+}
+
+
+.frame-20{
+  align-items: center;
+  background-color: var(--black);
+  border:1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 0 10px;
+  position: relative;
+  width: 1232px;
+}
+.my-dashboard{
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 56px;
+  margin-top: 13px;
+  min-height: 92px;
+  text-align: center;
+  width: 240px;
+}
+.component-container{
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  height: 126px;
+  margin-top: 233px;
+  min-width: 1199px;
+  position: relative;
+}
+.button{
+ -webkit-backdrop-filter: blur(4px) brightness(100%);
+ backdrop-filter: blur(4px) brightness(100%);
+ border-radius: 60px;
+ height: 105px;
+ margin-left: 86px;
+ margin-top: 441px;
 }
